@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @CrossOrigin(origins = "http://localhost:4200")
 @RequestMapping("/api")
-public class ResultController {cd ..
+public class ResultController {
 
     private final DecisionService decisionService;
 
