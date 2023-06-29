@@ -12,65 +12,65 @@ public final class DecisionConstants {
 
     public static ResultResponse sampleRockvsScissorsWinResultResponse() {
         return new ResultResponse(
-                Decision.ROCK.getDescription(),
-                Decision.SCISSORS.getDescription(),
-                Result.WIN.getDescription());
+                Decision.ROCK,
+                Decision.SCISSORS,
+                Result.WIN);
     }
 
     public static ResultResponse samplePapervsRocksWinResultResponse() {
         return new ResultResponse(
-                Decision.PAPER.getDescription(),
-                Decision.ROCK.getDescription(),
-                Result.WIN.getDescription());
+                Decision.PAPER,
+                Decision.ROCK,
+                Result.WIN);
     }
 
     public static ResultResponse sampleScissorsvsPaperWinResultResponse() {
         return new ResultResponse(
-                Decision.SCISSORS.getDescription(),
-                Decision.PAPER.getDescription(),
-                Result.WIN.getDescription());
+                Decision.SCISSORS,
+                Decision.PAPER,
+                Result.WIN);
     }
 
     public static ResultResponse sampleRockDrawResultResponse() {
         return new ResultResponse(
-                Decision.ROCK.getDescription(),
-                Decision.ROCK.getDescription(),
-                Result.DRAW.getDescription());
+                Decision.ROCK,
+                Decision.ROCK,
+                Result.DRAW);
     }
 
     public static ResultResponse samplePaperDrawResultResponse() {
         return new ResultResponse(
-                Decision.PAPER.getDescription(),
-                Decision.PAPER.getDescription(),
-                Result.DRAW.getDescription());
+                Decision.PAPER,
+                Decision.PAPER,
+                Result.DRAW);
     }
 
     public static ResultResponse sampleScissorsDrawResultResponse() {
         return new ResultResponse(
-                Decision.SCISSORS.getDescription(),
-                Decision.SCISSORS.getDescription(),
-                Result.DRAW.getDescription());
+                Decision.SCISSORS,
+                Decision.SCISSORS,
+                Result.DRAW);
     }
 
     public static ResultResponse sampleScissorsvsRockLoseResultResponse() {
         return new ResultResponse(
-                Decision.SCISSORS.getDescription(),
-                Decision.ROCK.getDescription(),
-                Result.LOSE.getDescription());
+                Decision.SCISSORS,
+                Decision.ROCK,
+                Result.LOSE);
     }
 
     public static ResultResponse sampleRockvsPaperLoseResultResponse() {
         return new ResultResponse(
-                Decision.ROCK.getDescription(),
-                Decision.PAPER.getDescription(),
-                Result.LOSE.getDescription());
+                Decision.ROCK,
+                Decision.PAPER,
+                Result.LOSE);
     }
 
     public static ResultResponse samplePapervsScissorsLoseResultResponse() {
         return new ResultResponse(
-                Decision.PAPER.getDescription(),
-                Decision.SCISSORS.getDescription(),
-                Result.LOSE.getDescription());
+                Decision.PAPER,
+                Decision.SCISSORS,
+                Result.LOSE);
     }
 
 

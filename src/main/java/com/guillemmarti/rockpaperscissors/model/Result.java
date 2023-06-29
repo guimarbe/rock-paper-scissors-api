@@ -1,17 +1,10 @@
 package com.guillemmarti.rockpaperscissors.model;
 
 public enum Result {
-    WIN("win"),
-    LOSE("lose"),
-    DRAW("draw");
+    WIN,
+    LOSE,
+    DRAW;
 
-    private final String description;
+    Result() {}
 
-    Result(String description) {
-        this.description = description;
-    }
-
-    public String getDescription() {
-        return this.description;
-    }
 }

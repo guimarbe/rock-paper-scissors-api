@@ -8,10 +8,6 @@ class RockPaperScissorsGameApplicationTests {
 
 	@Test
 	void contextLoads() {
-	}
-
-	@Test
-	public void applicationContextTest() {
 		RockPaperScissorsGameApplication.main(new String[] {});
 	}
 

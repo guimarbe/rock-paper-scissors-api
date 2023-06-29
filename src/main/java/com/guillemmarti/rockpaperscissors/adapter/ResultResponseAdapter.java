@@ -10,9 +10,9 @@ public final class ResultResponseAdapter {
 
     public static ResultResponse adapt(final Decision playerDecision, final Decision cpuDecision, final Result result) {
         return ResultResponse.builder()
-                .playerDecision(playerDecision.getDescription())
-                .cpuDecision(cpuDecision.getDescription())
-                .result(result.getDescription())
+                .playerDecision(playerDecision)
+                .cpuDecision(cpuDecision)
+                .result(result)
                 .build();
     }
 }

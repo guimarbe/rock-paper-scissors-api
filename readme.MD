@@ -7,6 +7,7 @@ REST API project for the web game of rock-paper-scissors.
 * [About the Project](#about-the-project)
 * [Getting Started](#getting-started)
     * [Prerequisites](#prerequisites)
+    * [Run](#run)
 * [Built With](#built-with)
 * [Contributing](#Contributing)
 * [Authors](#authors)
@@ -19,7 +20,7 @@ This project has been created to contain the logic of rock-paper-scissors game.
 
 <!-- GETTING STARTED -->
 ## Getting Started
-To setting up the project locally you can download a copy of this project clicking on the *Clone or download* and then *Download ZIP*.
+To setting up the project locally you can download a copy of this project clicking on the *Clone or download* button and then *Download ZIP*.
 
 ### Prerequisites
 First things first, you need to install the basic tools for java development
@@ -29,6 +30,24 @@ First things first, you need to install the basic tools for java development
 ```
 $ maven clean install
 ```
+
+### Run
+To run rock-paper-scissors game on local machine you need to run main application. 
+1. Open OpenAPI's documentation:
+```
+https://localhost:8080/swagger-ui/index.html
+```
+2. To play the game you need download and run front project. You can find it [here](https://github.com/guimarbe/rock-paper-scissors-front).
+Then, you can run the following command prompt's:
+```
+$ npm install
+```
+```
+$ npm start
+```
+After that, a new tab will be open on your browser.
+
+*Note: back-end project runs on port 8080 and front-end project runs on port 4200 by default.* 
 
 <!-- BUILT WITH -->
 ## Built with

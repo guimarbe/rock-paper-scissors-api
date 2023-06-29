@@ -16,7 +16,7 @@ public class SwaggerConfig {
     @Value("${springdoc.swagger-ui.display.title}")
     private String title;
     @Value("${springdoc.swagger-ui.display.description}")
-    private String decription;
+    private String description;
     @Value("${springdoc.swagger-ui.display.contact-name}")
     private String contactName;
     @Value("${springdoc.swagger-ui.display.version}")
@@ -24,7 +24,7 @@ public class SwaggerConfig {
 
     @Bean
     public OpenAPI openAPIInfo() {
-        return new OpenAPI().info(new Info().title(title).description(decription).version(version)
+        return new OpenAPI().info(new Info().title(title).description(description).version(version)
                 .contact(new Contact().name(contactName))
                 .license(new License().name("Apache 2.0").url("http://springdoc.org")));
     }

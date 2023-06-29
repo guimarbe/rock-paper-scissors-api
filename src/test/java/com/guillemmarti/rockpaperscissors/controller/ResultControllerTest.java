@@ -2,7 +2,6 @@ package com.guillemmarti.rockpaperscissors.controller;
 
 import com.guillemmarti.rockpaperscissors.model.Decision;
 import com.guillemmarti.rockpaperscissors.service.DecisionService;
-import com.guillemmarti.rockpaperscissors.service.RandomGenerator;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -15,9 +14,6 @@ import static org.mockito.ArgumentMatchers.any;
 
 @ExtendWith(MockitoExtension.class)
 class ResultControllerTest {
-
-    @Mock
-    RandomGenerator randomGenerator;
 
     @Mock
     DecisionService decisionService;

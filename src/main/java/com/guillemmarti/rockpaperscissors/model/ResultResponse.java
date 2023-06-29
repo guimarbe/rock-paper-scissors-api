@@ -9,10 +9,10 @@ import lombok.Data;
 @AllArgsConstructor
 public class ResultResponse {
 
-    private final String playerDecision;
+    private final Decision playerDecision;
 
-    private final String cpuDecision;
+    private final Decision cpuDecision;
 
-    private final String result;
+    private final Result result;
 
 }
